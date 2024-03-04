@@ -11,10 +11,10 @@ const Footer = () => (
   <footer className="bg-gray-100 pt-10 pb-20 xl:px-32">
     <div className='grid grid-cols-1 xl:grid-cols-4 mx-4 lg:mx-0'>
       <div className='col-span-1'>
-        <div className='2xl:my-10 2xl:mt-20 2xl:mx-20'>
+        <div className='my-11 mx-14 2xl:my-10 2xl:mt-20 2xl:mx-20'>
           {/* <h2 className='text-7xl font-bold text-primary'>LOGO</h2> */}
           <a href='/inicio' smooth="true" >
-            <img src={LogoFooter} className='w-full h-full'/>
+            <img src={LogoFooter} className='w-72 h-full xl:w-full xl:h-full'/>
           </a>
         </div>
       </div>

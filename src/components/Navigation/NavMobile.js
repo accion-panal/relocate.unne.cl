@@ -5,6 +5,7 @@ import Logo from '../Logo/Logo';
 import { Disclosure } from '@headlessui/react';
 import { navigationData } from '../../data/navigation';
 import { iconsList } from '../Icons';
+import LogoMobile from '../../assets/img/logo/logo.jpg'
 
 const NavMobile = ({ data = navigationData, onClickClose }) => {
   const { MdOutlineArrowDropDown } = iconsList;
@@ -46,13 +47,11 @@ const NavMobile = ({ data = navigationData, onClickClose }) => {
   return (
     <div className="overflow-y-auto w-full max-w-sm h-screen py-2 transition transform shadow-lg bg-white  divide-y-2 divide-[#d5d7db]">
       <div className="py-6 px-5">
-      <span className='font-bold text-6xl text-primary uppercase'>Logo</span>
-        {/* <Logo /> */}
-        {/* <div className="flex flex-col mt-5 text-gray-700 text-sm">
-          <div className="flex justify-between items-center mt-4">
-            <span className="block"></span>
-          </div>
-        </div> */}
+      {/* <span className='font-bold text-6xl text-primary uppercase'>Logo</span> */}
+          <a href='/inicio' smooth="true" >
+            <img src={LogoMobile} className='w-48 h-full'/>
+          </a>
+
         <span className="absolute right-2 top-2 p-1 ">
           <ButtonClose className='' onClick={onClickClose} />
         </span>

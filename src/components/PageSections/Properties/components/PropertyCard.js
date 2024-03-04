@@ -172,10 +172,7 @@ const PropertyCard = ({ data, isList, property,valueUf }) => {
                 <div className="table-cell px-2 text-center">{bedrooms ?? 0}</div>
                 <div className="table-cell px-2 text-center">{bathrooms ?? 0}</div>
                 <div className="table-cell px-2 text-center">{covered_parkings_lots ?? 0}</div>
-                {/* <div className="table-cell px-5 "><RiPencilRulerLine fill='#E85512'/>{bedrooms ?? 0}</div>
-                <div className="table-cell px-5"><FaBed fill='#E85512' /><span>{bedrooms ?? 0}</span></div>
-                <div className="table-cell px-5"><FaBath  fill='#E85512'/>{bathrooms ?? 0}</div>
-                <div className="table-cell px-5"><GiHomeGarage fill='#E85512' />{covered_parkings_lots ?? 0}</div> */}
+  
               </div>
             </div>
           </div>
@@ -187,7 +184,7 @@ const PropertyCard = ({ data, isList, property,valueUf }) => {
           <button
             type="button"
             onClick={()=> setModalOpen(true)}
-            className="inline-flex items-center px-4 py-2 w-52 m-2 text-end  xl:w-36 xl:h-10 xl:px-5  text-white bg-secondary rounded-sm hover:bg-secondary-400 focus:ring-4 focus:outline-none focus:ring-secondary-ligth"
+            className="inline-flex items-center px-4 py-2 w-40 m-2 text-end  xl:w-36 xl:h-10 xl:px-5  text-white bg-secondary rounded-sm hover:bg-secondary-400 focus:ring-4 focus:outline-none focus:ring-secondary-ligth"
           >
           <span className='text-lg items-center xl:text-sm m-1 inline-flex font-medium px-2'>Ver detalle</span>  
           </button>

@@ -7,7 +7,7 @@ const ZoneInMap = [
         latitude:-33.44837604728687
     },
     {
-        id:1,
+        id:2,
         region:'Valparaiso',
         comuna:'Valparaiso',
         longitude:-71.61651342042937,
